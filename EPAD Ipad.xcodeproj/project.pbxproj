@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5605F03B18E5190E00195362 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 5605F03A18E5190E00195362 /* Login.m */; };
+		5605F03F18E5203400195362 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5605F03C18E5203400195362 /* home.png */; };
+		5605F04018E5203400195362 /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5605F03D18E5203400195362 /* pass.png */; };
+		5605F04118E5203400195362 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5605F03E18E5203400195362 /* user.png */; };
+		5605F04318E520F200195362 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5605F04218E520F200195362 /* logo.png */; };
+		5625DE2218E2866B00D020AF /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 5625DE2118E2866B00D020AF /* border.png */; };
+		5625DE2418E2A32B00D020AF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5625DE2318E2A32B00D020AF /* AssetsLibrary.framework */; };
+		564D2CFA18E41EFC00C05CBB /* 512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF318E41EFC00C05CBB /* 512x512.png */; };
+		564D2CFB18E41EFC00C05CBB /* 29x29@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF418E41EFC00C05CBB /* 29x29@x2.png */; };
+		564D2CFC18E41EFC00C05CBB /* 40x40@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF518E41EFC00C05CBB /* 40x40@x2.png */; };
+		564D2CFD18E41EFC00C05CBB /* 76x76@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF618E41EFC00C05CBB /* 76x76@x2.png */; };
+		564D2CFE18E41EFC00C05CBB /* 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF718E41EFC00C05CBB /* 76x76.png */; };
+		564D2CFF18E41EFC00C05CBB /* 40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF818E41EFC00C05CBB /* 40x40.png */; };
+		564D2D0018E41EFC00C05CBB /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 564D2CF918E41EFC00C05CBB /* 29x29.png */; };
+		567AE05B18E9024100B1D30F /* nimbleKnead.png in Resources */ = {isa = PBXBuildFile; fileRef = 567AE05A18E9024100B1D30F /* nimbleKnead.png */; };
+		5691C4E718E016D500C6B3F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C4E618E016D400C6B3F0 /* Foundation.framework */; };
+		5691C4E918E016D500C6B3F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C4E818E016D500C6B3F0 /* CoreGraphics.framework */; };
+		5691C4EB18E016D500C6B3F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C4EA18E016D500C6B3F0 /* UIKit.framework */; };
+		5691C4F118E016D500C6B3F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5691C4EF18E016D500C6B3F0 /* InfoPlist.strings */; };
+		5691C4F318E016D500C6B3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5691C4F218E016D500C6B3F0 /* main.m */; };
+		5691C4F718E016D500C6B3F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5691C4F618E016D500C6B3F0 /* AppDelegate.m */; };
+		5691C4FA18E016D500C6B3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5691C4F818E016D500C6B3F0 /* Main.storyboard */; };
+		5691C4FD18E016D500C6B3F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5691C4FC18E016D500C6B3F0 /* ViewController.m */; };
+		5691C4FF18E016D500C6B3F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5691C4FE18E016D500C6B3F0 /* Images.xcassets */; };
+		5691C50618E016D500C6B3F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C50518E016D500C6B3F0 /* XCTest.framework */; };
+		5691C50718E016D500C6B3F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C4E618E016D400C6B3F0 /* Foundation.framework */; };
+		5691C50818E016D500C6B3F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5691C4EA18E016D500C6B3F0 /* UIKit.framework */; };
+		5691C51018E016D500C6B3F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5691C50E18E016D500C6B3F0 /* InfoPlist.strings */; };
+		5691C51218E016D500C6B3F0 /* EPAD_IpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5691C51118E016D500C6B3F0 /* EPAD_IpadTests.m */; };
+		56A5D3D418E5532400F5EE47 /* search.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5D3D318E5532400F5EE47 /* search.m */; };
+		56A5D3D718E573A500F5EE47 /* receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A5D3D518E573A500F5EE47 /* receipt.png */; };
+		56DA139C18E3CC9B00ACF5B7 /* ServiceSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DA139B18E3CC9B00ACF5B7 /* ServiceSheet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5691C50918E016D500C6B3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5691C4DB18E016D400C6B3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5691C4E218E016D400C6B3F0;
+			remoteInfo = "EPAD Ipad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5605F03918E5190E00195362 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		5605F03A18E5190E00195362 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		5605F03C18E5203400195362 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		5605F03D18E5203400195362 /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
+		5605F03E18E5203400195362 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		5605F04218E520F200195362 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5625DE2118E2866B00D020AF /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = "<group>"; };
+		5625DE2318E2A32B00D020AF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		564D2CF318E41EFC00C05CBB /* 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512x512.png; sourceTree = "<group>"; };
+		564D2CF418E41EFC00C05CBB /* 29x29@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29x29@x2.png"; sourceTree = "<group>"; };
+		564D2CF518E41EFC00C05CBB /* 40x40@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x40@x2.png"; sourceTree = "<group>"; };
+		564D2CF618E41EFC00C05CBB /* 76x76@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76x76@x2.png"; sourceTree = "<group>"; };
+		564D2CF718E41EFC00C05CBB /* 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x76.png; sourceTree = "<group>"; };
+		564D2CF818E41EFC00C05CBB /* 40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x40.png; sourceTree = "<group>"; };
+		564D2CF918E41EFC00C05CBB /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		567AE05A18E9024100B1D30F /* nimbleKnead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nimbleKnead.png; sourceTree = "<group>"; };
+		5691C4E318E016D400C6B3F0 /* EPAD Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPAD Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5691C4E618E016D400C6B3F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5691C4E818E016D500C6B3F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5691C4EA18E016D500C6B3F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5691C4EE18E016D500C6B3F0 /* EPAD Ipad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPAD Ipad-Info.plist"; sourceTree = "<group>"; };
+		5691C4F018E016D500C6B3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5691C4F218E016D500C6B3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5691C4F418E016D500C6B3F0 /* EPAD Ipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPAD Ipad-Prefix.pch"; sourceTree = "<group>"; };
+		5691C4F518E016D500C6B3F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5691C4F618E016D500C6B3F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5691C4F918E016D500C6B3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5691C4FB18E016D500C6B3F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5691C4FC18E016D500C6B3F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5691C4FE18E016D500C6B3F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5691C50418E016D500C6B3F0 /* EPAD IpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPAD IpadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5691C50518E016D500C6B3F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5691C50D18E016D500C6B3F0 /* EPAD IpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPAD IpadTests-Info.plist"; sourceTree = "<group>"; };
+		5691C50F18E016D500C6B3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5691C51118E016D500C6B3F0 /* EPAD_IpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAD_IpadTests.m; sourceTree = "<group>"; };
+		56A5D3D218E5532400F5EE47 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		56A5D3D318E5532400F5EE47 /* search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = search.m; sourceTree = "<group>"; };
+		56A5D3D518E573A500F5EE47 /* receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receipt.png; sourceTree = "<group>"; };
+		56DA139A18E3CC9B00ACF5B7 /* ServiceSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSheet.h; sourceTree = "<group>"; };
+		56DA139B18E3CC9B00ACF5B7 /* ServiceSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSheet.m; sourceTree = "<group>"; };
+		56DD552F18E421B0000EF90C /* Merchant.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Merchant.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5691C4E018E016D400C6B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5625DE2418E2A32B00D020AF /* AssetsLibrary.framework in Frameworks */,
+				5691C4E918E016D500C6B3F0 /* CoreGraphics.framework in Frameworks */,
+				5691C4EB18E016D500C6B3F0 /* UIKit.framework in Frameworks */,
+				5691C4E718E016D500C6B3F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5691C50118E016D500C6B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5691C50618E016D500C6B3F0 /* XCTest.framework in Frameworks */,
+				5691C50818E016D500C6B3F0 /* UIKit.framework in Frameworks */,
+				5691C50718E016D500C6B3F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564D2CF218E41EEF00C05CBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				567AE05A18E9024100B1D30F /* nimbleKnead.png */,
+				564D2CF318E41EFC00C05CBB /* 512x512.png */,
+				564D2CF418E41EFC00C05CBB /* 29x29@x2.png */,
+				564D2CF518E41EFC00C05CBB /* 40x40@x2.png */,
+				5605F04218E520F200195362 /* logo.png */,
+				564D2CF618E41EFC00C05CBB /* 76x76@x2.png */,
+				5605F03C18E5203400195362 /* home.png */,
+				5605F03D18E5203400195362 /* pass.png */,
+				56A5D3D518E573A500F5EE47 /* receipt.png */,
+				5605F03E18E5203400195362 /* user.png */,
+				564D2CF718E41EFC00C05CBB /* 76x76.png */,
+				564D2CF818E41EFC00C05CBB /* 40x40.png */,
+				564D2CF918E41EFC00C05CBB /* 29x29.png */,
+				5625DE2118E2866B00D020AF /* border.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5691C4DA18E016D400C6B3F0 = {
+			isa = PBXGroup;
+			children = (
+				5691C4EC18E016D500C6B3F0 /* EPAD Ipad */,
+				5691C50B18E016D500C6B3F0 /* EPAD IpadTests */,
+				5691C4E518E016D400C6B3F0 /* Frameworks */,
+				5691C4E418E016D400C6B3F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5691C4E418E016D400C6B3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5691C4E318E016D400C6B3F0 /* EPAD Ipad.app */,
+				5691C50418E016D500C6B3F0 /* EPAD IpadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5691C4E518E016D400C6B3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5625DE2318E2A32B00D020AF /* AssetsLibrary.framework */,
+				5691C4E618E016D400C6B3F0 /* Foundation.framework */,
+				5691C4E818E016D500C6B3F0 /* CoreGraphics.framework */,
+				5691C4EA18E016D500C6B3F0 /* UIKit.framework */,
+				5691C50518E016D500C6B3F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5691C4EC18E016D500C6B3F0 /* EPAD Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				564D2CF218E41EEF00C05CBB /* Images */,
+				5691C4F518E016D500C6B3F0 /* AppDelegate.h */,
+				5691C4F618E016D500C6B3F0 /* AppDelegate.m */,
+				5691C4F818E016D500C6B3F0 /* Main.storyboard */,
+				5691C4FB18E016D500C6B3F0 /* ViewController.h */,
+				5691C4FC18E016D500C6B3F0 /* ViewController.m */,
+				5605F03918E5190E00195362 /* Login.h */,
+				5605F03A18E5190E00195362 /* Login.m */,
+				56A5D3D218E5532400F5EE47 /* search.h */,
+				56A5D3D318E5532400F5EE47 /* search.m */,
+				56DA139A18E3CC9B00ACF5B7 /* ServiceSheet.h */,
+				56DA139B18E3CC9B00ACF5B7 /* ServiceSheet.m */,
+				5691C4FE18E016D500C6B3F0 /* Images.xcassets */,
+				5691C4ED18E016D500C6B3F0 /* Supporting Files */,
+			);
+			path = "EPAD Ipad";
+			sourceTree = "<group>";
+		};
+		5691C4ED18E016D500C6B3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DD552F18E421B0000EF90C /* Merchant.ttf */,
+				5691C4EE18E016D500C6B3F0 /* EPAD Ipad-Info.plist */,
+				5691C4EF18E016D500C6B3F0 /* InfoPlist.strings */,
+				5691C4F218E016D500C6B3F0 /* main.m */,
+				5691C4F418E016D500C6B3F0 /* EPAD Ipad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5691C50B18E016D500C6B3F0 /* EPAD IpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				5691C51118E016D500C6B3F0 /* EPAD_IpadTests.m */,
+				5691C50C18E016D500C6B3F0 /* Supporting Files */,
+			);
+			path = "EPAD IpadTests";
+			sourceTree = "<group>";
+		};
+		5691C50C18E016D500C6B3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5691C50D18E016D500C6B3F0 /* EPAD IpadTests-Info.plist */,
+				5691C50E18E016D500C6B3F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5691C4E218E016D400C6B3F0 /* EPAD Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5691C51518E016D500C6B3F0 /* Build configuration list for PBXNativeTarget "EPAD Ipad" */;
+			buildPhases = (
+				5691C4DF18E016D400C6B3F0 /* Sources */,
+				5691C4E018E016D400C6B3F0 /* Frameworks */,
+				5691C4E118E016D400C6B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EPAD Ipad";
+			productName = "EPAD Ipad";
+			productReference = 5691C4E318E016D400C6B3F0 /* EPAD Ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5691C50318E016D500C6B3F0 /* EPAD IpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5691C51818E016D500C6B3F0 /* Build configuration list for PBXNativeTarget "EPAD IpadTests" */;
+			buildPhases = (
+				5691C50018E016D500C6B3F0 /* Sources */,
+				5691C50118E016D500C6B3F0 /* Frameworks */,
+				5691C50218E016D500C6B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5691C50A18E016D500C6B3F0 /* PBXTargetDependency */,
+			);
+			name = "EPAD IpadTests";
+			productName = "EPAD IpadTests";
+			productReference = 5691C50418E016D500C6B3F0 /* EPAD IpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5691C4DB18E016D400C6B3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = RLIM;
+				TargetAttributes = {
+					5691C50318E016D500C6B3F0 = {
+						TestTargetID = 5691C4E218E016D400C6B3F0;
+					};
+				};
+			};
+			buildConfigurationList = 5691C4DE18E016D400C6B3F0 /* Build configuration list for PBXProject "EPAD Ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5691C4DA18E016D400C6B3F0;
+			productRefGroup = 5691C4E418E016D400C6B3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5691C4E218E016D400C6B3F0 /* EPAD Ipad */,
+				5691C50318E016D500C6B3F0 /* EPAD IpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5691C4E118E016D400C6B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567AE05B18E9024100B1D30F /* nimbleKnead.png in Resources */,
+				5691C4FF18E016D500C6B3F0 /* Images.xcassets in Resources */,
+				564D2D0018E41EFC00C05CBB /* 29x29.png in Resources */,
+				564D2CFA18E41EFC00C05CBB /* 512x512.png in Resources */,
+				5625DE2218E2866B00D020AF /* border.png in Resources */,
+				564D2CFD18E41EFC00C05CBB /* 76x76@x2.png in Resources */,
+				564D2CFC18E41EFC00C05CBB /* 40x40@x2.png in Resources */,
+				5605F04018E5203400195362 /* pass.png in Resources */,
+				564D2CFE18E41EFC00C05CBB /* 76x76.png in Resources */,
+				564D2CFF18E41EFC00C05CBB /* 40x40.png in Resources */,
+				5691C4F118E016D500C6B3F0 /* InfoPlist.strings in Resources */,
+				56A5D3D718E573A500F5EE47 /* receipt.png in Resources */,
+				5605F04118E5203400195362 /* user.png in Resources */,
+				5605F04318E520F200195362 /* logo.png in Resources */,
+				5605F03F18E5203400195362 /* home.png in Resources */,
+				5691C4FA18E016D500C6B3F0 /* Main.storyboard in Resources */,
+				564D2CFB18E41EFC00C05CBB /* 29x29@x2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5691C50218E016D500C6B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5691C51018E016D500C6B3F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5691C4DF18E016D400C6B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5605F03B18E5190E00195362 /* Login.m in Sources */,
+				5691C4FD18E016D500C6B3F0 /* ViewController.m in Sources */,
+				5691C4F718E016D500C6B3F0 /* AppDelegate.m in Sources */,
+				5691C4F318E016D500C6B3F0 /* main.m in Sources */,
+				56DA139C18E3CC9B00ACF5B7 /* ServiceSheet.m in Sources */,
+				56A5D3D418E5532400F5EE47 /* search.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5691C50018E016D500C6B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5691C51218E016D500C6B3F0 /* EPAD_IpadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5691C50A18E016D500C6B3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5691C4E218E016D400C6B3F0 /* EPAD Ipad */;
+			targetProxy = 5691C50918E016D500C6B3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5691C4EF18E016D500C6B3F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5691C4F018E016D500C6B3F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5691C4F818E016D500C6B3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5691C4F918E016D500C6B3F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5691C50E18E016D500C6B3F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5691C50F18E016D500C6B3F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5691C51318E016D500C6B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5691C51418E016D500C6B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5691C51618E016D500C6B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPAD Ipad/EPAD Ipad-Prefix.pch";
+				INFOPLIST_FILE = "EPAD Ipad/EPAD Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5691C51718E016D500C6B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPAD Ipad/EPAD Ipad-Prefix.pch";
+				INFOPLIST_FILE = "EPAD Ipad/EPAD Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5691C51918E016D500C6B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPAD Ipad.app/EPAD Ipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPAD Ipad/EPAD Ipad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPAD IpadTests/EPAD IpadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5691C51A18E016D500C6B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPAD Ipad.app/EPAD Ipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPAD Ipad/EPAD Ipad-Prefix.pch";
+				INFOPLIST_FILE = "EPAD IpadTests/EPAD IpadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5691C4DE18E016D400C6B3F0 /* Build configuration list for PBXProject "EPAD Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5691C51318E016D500C6B3F0 /* Debug */,
+				5691C51418E016D500C6B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5691C51518E016D500C6B3F0 /* Build configuration list for PBXNativeTarget "EPAD Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5691C51618E016D500C6B3F0 /* Debug */,
+				5691C51718E016D500C6B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5691C51818E016D500C6B3F0 /* Build configuration list for PBXNativeTarget "EPAD IpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5691C51918E016D500C6B3F0 /* Debug */,
+				5691C51A18E016D500C6B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5691C4DB18E016D400C6B3F0 /* Project object */;
+}
